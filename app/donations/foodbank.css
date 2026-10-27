@@ -1,0 +1,16 @@
+.fb-demo{background:#fff3d6;color:#8a5a00;border-radius:99px;padding:3px 9px;font-size:.72rem;font-weight:800;margin-left:6px}
+.fb-route{display:inline-flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
+.fb-bar{height:9px;border-radius:9px;background:#e6f2ec;overflow:hidden}.fb-bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--green),var(--bright))}
+.fb-row{display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--bd)}
+.fb-rank{width:34px;height:34px;border-radius:50%;background:var(--mint);color:var(--forest);display:grid;place-items:center;font-weight:800}
+.fb-score{font-family:Manrope,sans-serif;font-size:1.6rem;font-weight:800;color:var(--forest);text-align:right;line-height:1}
+.fb-filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin-bottom:16px}
+.fb-filters input,.fb-filters select{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:12px;background:#fff}
+.fb-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:14px 0}
+.fb-step{padding:10px 8px;border-radius:12px;background:#eff7f2;font-size:.8rem;font-weight:700;text-align:center;color:var(--mut)}.fb-step.done{background:var(--mint);color:var(--forest)}
+.fb-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}.fb-stat{background:#f1faf5;border-radius:14px;padding:14px;text-align:center}.fb-stat b{display:block;font-family:Manrope,sans-serif;font-size:1.5rem;color:var(--forest)}
+.fb-ad{border:1px solid var(--bd);border-radius:18px;overflow:hidden;background:#fff;box-shadow:var(--shadow)}.fb-ad img{width:100%;height:auto}
+.fb-ad-generic{padding:22px;background:linear-gradient(135deg,#fffaf0,#e9f8ee)}
+.fb-ad-label{font-size:.7rem;font-weight:800;letter-spacing:.08em;color:var(--mut);padding:8px 14px;background:#f4f8f6;display:flex;justify-content:space-between}
+.fb-table{width:100%;border-collapse:collapse;font-size:.92rem}.fb-table th,.fb-table td{padding:9px 8px;border-bottom:1px solid var(--bd);text-align:left}
+@media(max-width:760px){.fb-filters{grid-template-columns:1fr}.fb-steps{grid-template-columns:1fr 1fr}.fb-stats{grid-template-columns:1fr}}
